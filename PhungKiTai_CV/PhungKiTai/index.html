@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/fonts/fontawesome-free-6.1.1-desktop/otfs/Font Awesome 6 Free-Solid-900.otf">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- overlay -->
+  <section id="overlay"></section>
+  <!-- header -->
+  <header>
+    <div class="container-header" style="
+    margin: 0;
+    padding: 0;
+">
+      <nav class="navbar">
+        <a class="logo link" href="#">
+          TAI | DEVELOPER
+        </a>
+
+        <!-- links -->
+        <ul class="navbar__links">
+          <li class="navbar__link">
+            <a class="link" href="#works">WORK</a>
+          </li>
+          <li class="navbar__link">
+            <a class="link" href="#things">ABOUT</a>
+          </li>
+          <li class="navbar__link">
+            <a class="link" href="#works">RESUME</a>
+          </li>
+          <a href="#footer">
+            <button class="navbar__btn-header">CONTACT</button></a>
+        </ul>
+        <!-- menu button -->
+        <div class="navbar__icons">
+          <div class="navbar__icon"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- banner -->
+  <section id="banner">
+    <div class="container-banner">
+      <!-- heading -->
+      <div class="banner__heading">
+        <h1>Hello, I'm Tai</h1>
+        <p>
+          Mình là một sinh viên của trường Đại học Thủy Lợi. Mình đang học tập, theo đuổi nghành Công nghệ thông
+          tin.<br>
+          Hiện tại mình đang theo học khóa học tại F8 và đã được gần 2 tháng theo đuổi lập trình Web, mình cảm thấy rất
+          thích thú khi học ngành này. Cảm ơn anh Sơn đã tạo ra F8 để giúp tôi học tập và phát triển bản thân.
+        </p>
+        <a href="#"><button class="banner__btn">View More</button></a>
+        <div class="banner__socials">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <!-- img -->
+      <div class="banner__img">
+        <img src="./img/my-profile.JPG" alt="illustration of me" />
+      </div>
+    </div>
+  </section>
+  <!-- things -->
+  <section id="things">
+    <div class="container">
+      <!-- heading -->
+      <h2>Things I Do</h2>
+      <!-- item 1 -->
+      <div class="things__item">
+        <!-- img -->
+        <img src="./img/things-item-1.png" alt="illustration of women" />
+        <!-- text -->
+        <div class="things__item--heading">
+          <h3>Thông tin cơ bản</h3>
+          <div class="things__item--line-content">
+            <i class="fa-solid fa-cake-candles"></i>
+            <p style="padding: 0;">18/10/2002</p>
+          </div>
+          <div class="things__item--line-content">
+            <i class="fa-solid fa-person"></i>
+            <p style="padding: 0;">Nam</p>
+          </div>
+          <div class="things__item--line-content">
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="padding: 0;">Đống Đa, Hà Nội</p>
+          </div>
+        </div>
+      </div>
+      <!-- item 2 -->
+      <div class="things__item">
+        <!-- img -->
+        <img src="./img/things-item-2.png" alt="illustration of women" />
+        <!-- text -->
+        <div class="things__item--heading">
+          <h3>Học vấn</h3><br>
+          <b>Đại học Thủy Lợi</b>
+          <p>Ngành học: Công nghệ thông tin</p>
+          <p>Chuyên ngành: Công nghệ phần mềm</p>
+          <p>Xếp loại: Giỏi</p>
+        </div>
+      </div>
+      <!-- item 3 -->
+      <div class="things__item">
+        <!-- img -->
+        <img src="./img/things-item-3.png" alt="illustration of computer" />
+        <!-- text -->
+        <div class="things__item--heading">
+          <h3>Kinh nghiệm làm việc</h3>
+          <p>
+            Xử lí, phân tích và thiết kế 1 website Landing page.
+          </p>
+          <p>Phát triển tính năng, thay đổi giao diện, xây dựng hiệu ứng và tối ưu hóa sử dụng cho người dùng.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- works -->
+  <section id="works">
+    <div class="container">
+      <!-- heading -->
+      <h2>Recent Works</h2>
+      <!-- img -->
+      <div class="works__img">
+        <div class="works__img--single">
+          <a href="../TheBand/index.html" class="case">
+            <div class="zoom">
+              <div class="case-item">
+                <img src="./img/work-theBand.png" alt="" class="case-item--img" />
+              </div>
+              <h3 style="justify-content: center;
+              align-items: center;
+              display: flex;
+              padding-top: 3px;
+              color: #001858;">The Band</h3>
+            </div>
+          </a>
+
+        </div>
+        <div class="works__img--single">
+          <a href="../PlayMusic/index.html" class="case">
+            <div class="zoom">
+              <div class="case-item">
+                <img src="./img/work-playMusic.png" alt="" class="case-item--img" />
+              </div>
+              <h3 style="justify-content: center;
+              align-items: center;
+              display: flex;
+              padding-top: 3px;
+              color: #001858;">Play Music</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- btn -->
+      <div class="works__btn">
+        <a href="#"><button>View Works</button></a>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer id="footer">
+    <div class="container">
+      <!-- img -->
+      <div class="footer__img">
+        <img src="./img/footer-img.png" alt="illustration of women" />
+      </div>
+      <!-- heading -->
+      <div class="footer__heading">
+        <h1>Ready to make something amazing?</h1>
+        <!-- contact -->
+        <div class="footer__contact">
+          <div class="things__item--line-content">
+            <i class="fa-solid fa-phone"></i>
+            <p>0346909328</p>
+          </div>
+          <div class="things__item--line-content">
+            <i class="fa-solid fa-envelope"></i>
+            <p>phungkitai1810@gmail.com</p>
+          </div>
+        </div>
+        <div class="banner__socials">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/28c0af3030.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/bf11393820.js" crossorigin="anonymous"></script>
+  <!-- main js -->
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
